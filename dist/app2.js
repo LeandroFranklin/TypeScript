@@ -45,3 +45,9 @@ class Pessoa {
         return this.carro;
     }
 }
+let carroA = new Carro("Dodge Journey", 4);
+let carroB = new Carro("Veloster", 3);
+let carroC = new Carro("Cerato", 4);
+let listaDeCarros = [carroA, carroB, carroC];
+let concessionaria = new Concessionaria("Av Epitácio Pessoa", listaDeCarros);
+console.log(concessionaria.mostrarListaDeCarros());
