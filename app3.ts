@@ -13,4 +13,4 @@ console.log(carro);
 
 let concessionaria = new Concessionaria("", []);
 
-console.log(concessionaria.fornecerHorariosDeFuncionamento();)
+console.log(concessionaria.fornecerHorariosDeFuncionamento());
