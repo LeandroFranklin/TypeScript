@@ -1,8 +1,10 @@
-import { ConcessionariaDao } from "./ConcessionariaDao";
+import { Dao } from "./Dao";
 import Concessionaria from "./Concessionaria";
-
-let dao: ConcessionariaDao = new ConcessionariaDao();
+import Pessoa from "./Pessoa";
 
 let concessionaria = new Concessionaria("", []);
+let pessoa = new Pessoa("", "");
 
-dao.inserir(concessionaria);
+let dao3 = new Dao<Concessionaria>();
+
+dao3.inserir(concessionaria);
